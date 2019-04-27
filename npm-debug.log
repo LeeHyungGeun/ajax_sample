@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/nnpm',
+1 verbose cli   'uninstall',
+1 verbose cli   '--save',
+1 verbose cli   'npm-run-all' ]
+2 info using npm@6.0.0
+3 info using node@v10.0.0
+4 verbose stack Error: Cannot find module 'internal/util/types'
+4 verbose stack     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:571:15)
+4 verbose stack     at Function.Module._load (internal/modules/cjs/loader.js:497:25)
+4 verbose stack     at Module.require (internal/modules/cjs/loader.js:626:17)
+4 verbose stack     at require (internal/modules/cjs/helpers.js:20:18)
+4 verbose stack     at evalmachine.<anonymous>:31:26
+4 verbose stack     at Object.<anonymous> (/usr/local/lib/node_modules/naver-npm/node_modules/cmd-shim/node_modules/graceful-fs/fs.js:11:1)
+4 verbose stack     at Module._compile (internal/modules/cjs/loader.js:678:30)
+4 verbose stack     at Object.Module._extensions..js (internal/modules/cjs/loader.js:689:10)
+4 verbose stack     at Module.load (internal/modules/cjs/loader.js:589:32)
+4 verbose stack     at tryModuleLoad (internal/modules/cjs/loader.js:528:12)
+5 verbose cwd /Users/leehyunggeun/Projects/demos/ajax
+6 error Darwin 18.2.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/nnpm" "uninstall" "--save" "npm-run-all"
+8 error node v10.0.0
+9 error npm  v6.0.0
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'internal/util/types'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
